@@ -18,4 +18,4 @@ Nonstationary 상황에서
 고정된 시간간격 방법(Constant Step-Size Parameter method)
 ![sample2](img/nonstationary_fixed.png)    
 
-고정된 시간간격이 더 우수함.
+Nonstationary 상황에서는 표본평균 방법을 쓰기가 어려운 것을 확인할 수 있음.
