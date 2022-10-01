@@ -2,12 +2,20 @@
 
 
 
-Stationary 상황에서는 Sample Average 방식이 우수하고,     
-![stationary](img/stationary-sampleavg.png)
+Stationary 상황에서,   
+epsilon 값에 따른 학습 추이 
+![stationary](img/stationary_sample_avg.png)
    
    
-Sample Average 방식보다 고정된 시간간격 1/n 을 적용한 방식이    
-Non Stationary 상황에서 적합하고, 우수하다는 것을 알 수 있음     
 
-![nonstationary-sample](img/nonstationary-sampleavg.png)
-![nonstationary-sample](img/nonstationary-fixedtime.png)
+Nonstationary 상황에서      
+현재와 과거에대한 가중치가 동일한 표본 평균방법(Sample-average method)과    
+![sample1](img/nonstationary_sample_avg.png)    
+     
+    
+
+과거의 가중치는 작게, 현재의 가중치는 크게 설정한
+고정된 시간간격 방법(Constant Step-Size Parameter method)
+![sample2](img/nonstationary_fixed.png)    
+
+고정된 시간간격이 더 우수함.
