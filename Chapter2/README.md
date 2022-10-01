@@ -14,7 +14,7 @@ Nonstationary 상황에서
      
     
 
-과거의 가중치는 작게, 현재의 가중치는 크게 설정한
+과거의 가중치는 작게, 현재의 가중치는 크게 설정한    
 고정된 시간간격 방법(Constant Step-Size Parameter method)
 ![sample2](img/nonstationary_fixed.png)    
 
